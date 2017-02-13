@@ -1,0 +1,22 @@
+{
+  "intents": [
+    {
+      "intent": "FindRoom",
+      "slots": [
+        {
+          "name": "Room",
+          "type": "LIST_OF_ROOMS"
+        }
+      ]
+    },
+    {
+      "intent": "FindObject",
+      "slots": [
+        {
+          "name": "Object",
+          "type": "LIST_OF_OBJECTS"
+        }
+      ]
+    }
+  ]
+}
